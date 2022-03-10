@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace tpmodul3
 {
     internal class KodePos
     {
+        public static void getKodePos(string kel, string kode)
+        {
+            Console.WriteLine(kel+ " " + kode);
+        }
+
     }
 }
